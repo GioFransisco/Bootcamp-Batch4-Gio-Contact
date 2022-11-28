@@ -51,8 +51,7 @@ const main = async() => {
     // untuk menambah data
     contacts.push(contact);
     // setelah melakukan push, buat menjadi agar bisa di tuliskan di dalam contacts.json 
-    // fungsi stringify = mengubah file dari json menjadi string 
-    fs.writeFileSync('data/contacts.json', JSON.stringify(contacts));
+    fs.writeFileSync('data/contacts.json', JSON.stringify(contacts)); // fungsi stringify = mengubah file dari json menjadi string 
     console.log(`your name is ${name}`)
     console.log(`your email is ${email}`)
     console.log(`your phone is ${phone}`)
