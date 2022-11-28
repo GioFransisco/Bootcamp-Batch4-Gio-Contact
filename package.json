@@ -1,0 +1,20 @@
+{
+  "name": "bootcamp-batch4-gio-npm",
+  "version": "1.0.0",
+  "description": "Learn NPM",
+  "main": "app.js",
+  "scripts": {
+    "fol": "ls",
+    "start": "node app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Bootcamp-Batch4-Gio-NPM"
+  },
+  "author": "GioFransisco",
+  "license": "ISC",
+  "dependencies": {
+    "validator": "^13.5.2"
+  }
+}
